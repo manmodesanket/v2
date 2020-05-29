@@ -1,0 +1,35 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 100px;
+}
+
+h1 {
+  font-size: max(2vw + 1rem, 3vw);
+}
+
+.intro_para {
+  width: 800px;
+  max-width: 100%;
+  font-size: max(1.8vw + 1rem, 3vw);
+}
+
+span {
+  color: #f6f6fa;
+}
+
+.coding {
+  background-image: url(../img/man-technologist.png);
+  width: 40px;
+  height: 40px;
+}
+
+.email {
+  font-size: max(1vw + 1rem, 1.5vw);
+}
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    padding: 50px 30px;
+  }
+}

@@ -1,0 +1,40 @@
+.navbar {
+  background: #293144;
+  width: 10vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #afafbf;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  display: block;
+  height: 50px;
+  border-bottom: 1px solid #afafbf;
+  padding: 1vw;
+}
+
+a {
+  color: #afafbf;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100vw;
+    height: 10vh;
+  }
+  ul {
+    flex-direction: row;
+    align-content: center;
+  }
+  li {
+    display: inline;
+  }
+}
