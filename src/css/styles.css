@@ -3,6 +3,7 @@ body {
     "Lucida Sans", Arial, sans-serif;
   margin: 0px;
   background-color: #171c28;
+  background-image: linear-gradient(-90deg, #171c28, #123688);
   color: #afafbf;
 }
 
