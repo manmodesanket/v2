@@ -1,0 +1,40 @@
+.project {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 100px;
+  padding-right: 300px;
+}
+
+.cardlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem 1rem;
+}
+
+.card {
+  border: 1px solid black;
+  grid-auto-rows: 10px 10px;
+  padding: 1rem;
+  background-color: rgb(79, 83, 87);
+  box-shadow: 3px 3px black;
+}
+
+.card:hover {
+  box-shadow: 3px 6px 12px black;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .project {
+    padding: 0rem;
+  }
+  .card {
+    padding: 1rem;
+    width: 80%;
+  }
+}
