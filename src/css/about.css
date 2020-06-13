@@ -1,6 +1,6 @@
 .about {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   padding-left: 100px;
   padding-right: 300px;
   font-size: max(1vw + 1rem, 2vw);
@@ -12,6 +12,9 @@
 
 @media only screen and (max-width: 600px) {
   .about {
-    padding: 50px 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }

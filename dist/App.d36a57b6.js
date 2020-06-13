@@ -31028,7 +31028,24 @@ var About = function About() {
     className: "about"
   }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "I am a final year student at MIT College of Engineer. I am majoring in IT branch. Looking for opportunity as Software Engineer/Front-end Engineer. I am striving to be pixel perfect. Currently in love with React.")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("span", null, "Proficient Skills"), /*#__PURE__*/_react.default.createElement("div", {
     className: "skills"
-  }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "HTML"), /*#__PURE__*/_react.default.createElement("li", null, "CSS"), /*#__PURE__*/_react.default.createElement("li", null, "JavaScript"), /*#__PURE__*/_react.default.createElement("li", null, "React"), /*#__PURE__*/_react.default.createElement("li", null, "C++"), /*#__PURE__*/_react.default.createElement("li", null, "Git")), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Data Strcuture"), /*#__PURE__*/_react.default.createElement("li", null, "Algorithms"), /*#__PURE__*/_react.default.createElement("li", null, "Agile Methodology")))));
+  }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "HTML"), /*#__PURE__*/_react.default.createElement("li", null, "CSS"), /*#__PURE__*/_react.default.createElement("li", null, "JavaScript"), /*#__PURE__*/_react.default.createElement("li", null, "React"), /*#__PURE__*/_react.default.createElement("li", null, "C++"), /*#__PURE__*/_react.default.createElement("li", null, "Git")), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Data Strcuture"), /*#__PURE__*/_react.default.createElement("li", null, "Algorithms"), /*#__PURE__*/_react.default.createElement("li", null, "Agile Methodology")))), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("span", null, "Contact"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "contact"
+  }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://www.linkedin.com/in/manmodesanket/",
+    target: "_blank"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://img.icons8.com/color/48/000000/linkedin.png"
+  }))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://github.com/manmodesanket",
+    target: "_blank"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://img.icons8.com/material-rounded/48/000000/github.png"
+  }))), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://twitter.com/_manmodesanket",
+    target: "_blank"
+  }, " ", /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://img.icons8.com/color/48/000000/twitter.png"
+  })))))));
 };
 
 var _default = About;
@@ -31310,7 +31327,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52326" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52285" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

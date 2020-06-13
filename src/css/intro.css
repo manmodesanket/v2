@@ -1,5 +1,5 @@
 .intro {
-  padding: 50px 100px;
+  padding: 30px 100px;
   width: 800px;
   max-width: 100%;
   font-size: max(1.8vw + 1rem, 3vw);
@@ -33,6 +33,6 @@ span {
 
 @media only screen and (max-width: 600px) {
   .intro {
-    padding: 50px 30px;
+    padding: 30px 30px;
   }
 }
