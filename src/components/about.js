@@ -6,10 +6,9 @@ const About = () => {
     <div className="about">
       <div>
         <p>
-          I am a final year student at MIT College of Engineer. I am majoring in
-          IT branch. Looking for opportunity as Software Engineer/Front-end
-          Engineer. I am striving to be pixel perfect. Currently in love with
-          React.
+          I am a Software Engineering Associate at Amdocs. I am learning Web
+          Development skills. I am striving to be pixel perfect. When I am not
+          coding I will probably be watching Football or a TV series.
         </p>
       </div>
       <div>
@@ -22,11 +21,11 @@ const About = () => {
             <li>React</li>
             <li>C++</li>
             <li>Git</li>
+            <li>Java</li>
           </ul>
           <ul>
             <li>Data Strcuture</li>
             <li>Algorithms</li>
-            <li>Agile Methodology</li>
           </ul>
         </div>
       </div>
