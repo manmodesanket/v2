@@ -6,9 +6,9 @@ const About = () => {
     <div className="about">
       <div>
         <p>
-          I am a Software Engineering Associate at Amdocs. I am learning Web
-          Development skills. I am striving to be pixel perfect. When I am not
-          coding I will probably be watching Football or a TV series.
+          I am a Software Engineering Associate at Amdocs. I am into Web
+          Development. I am striving to be pixel perfect. When I am not coding I
+          will probably be watching Football or a TV series.
         </p>
       </div>
       <div>
